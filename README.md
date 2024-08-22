@@ -8,7 +8,7 @@ This project addresses the task of predicting a molecule's biological activity o
 
 # Data:
 
-The dataset consists of molecules represented in SMILES format, along with their corresponding activity labels (+1: active, 0: unknown, -1: inactive). The data is super inbalanced but see more detail in the EDA
+The dataset consists of molecules represented in SMILES format, along with their corresponding activity labels of 11 separated category (+1: active, 0: unknown, -1: inactive). The data is super inbalanced but see more detail in the EDA
 
 # Model:
 
