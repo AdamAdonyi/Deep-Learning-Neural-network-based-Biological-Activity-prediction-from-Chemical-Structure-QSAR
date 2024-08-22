@@ -1,3 +1,6 @@
+<img src="smiles.png"45%"/>
+
+
 # QSAR-Challenge-Predicting-Biological-Activity-from-Chemical-Structure
 This project addresses the task of predicting a molecule's biological activity or toxicity based on its chemical structure. Using a Quantitative Structure-Activity Relationship (QSAR) approach, we aim to train a machine learning model capable of accurately classifying molecules as active, inactive, or unknown.
 
