@@ -1,4 +1,4 @@
-<img src="smiles.png"45%"/>
+<img src="[smiles.png"45%](https://github.com/AdamAdonyi/QSAR-Challenge-Predicting-Biological-Activity-from-Chemical-Structure/blob/main/smiles.png)"/>
 
 
 # QSAR-Challenge-Predicting-Biological-Activity-from-Chemical-Structure
