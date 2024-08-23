@@ -16,6 +16,12 @@ Data preparation had 3 pillars: Morgan Fingerprint (1024 added features), MACCSK
 
 <img src="https://github.com/AdamAdonyi/QSAR-Challenge-Predicting-Biological-Activity-from-Chemical-Structure/blob/main/strategy_data_prep.JPG">
 
+
+
+# Generated training data:
+
+<img src="https://github.com/AdamAdonyi/QSAR-Challenge-Predicting-Biological-Activity-from-Chemical-Structure/blob/main/Heatmap_training_data.JPG">
+
 # Model:
 
 I employed a Deep Learning Neural network models. The models were trained on a portion of the dataset and evaluated on a separate testing set.
