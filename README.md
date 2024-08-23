@@ -23,7 +23,7 @@ The performance was assessed using the auc on the evaluation server, which calcu
 
 # Results:
 
-I reached 0.652 AUC which considered a good score in case of the unbalanced data
+I reached 0.752 AUC which considered a good score in case of the unbalanced data
 
 # Future Work:
 
