@@ -27,6 +27,10 @@ Data preparation had 3 pillars: Morgan Fingerprint (1024 added features), MACCSK
 
 I employed a Deep Learning Neural network models. The models were trained on a portion of the dataset and evaluated on a separate testing set.
 
+
+<img src="https://github.com/AdamAdonyi/QSAR-Challenge-Predicting-Biological-Activity-from-Chemical-Structure/blob/main/model_arch.png">
+
+
 # Evaluation:
 
 The performance was assessed using the auc on the evaluation server, which calculates the mean Area Under the ROC Curve (AUC) while considering the presence of unknown labels.
