@@ -18,7 +18,8 @@ Data preparation had 3 pillars: Morgan Fingerprint (1024 added features), MACCSK
 
 
 
-# Generated training data:
+# Generated training data: (12000x1385)
+
 
 <img src="https://github.com/AdamAdonyi/QSAR-Challenge-Predicting-Biological-Activity-from-Chemical-Structure/blob/main/Heatmap_training_data.JPG">
 
