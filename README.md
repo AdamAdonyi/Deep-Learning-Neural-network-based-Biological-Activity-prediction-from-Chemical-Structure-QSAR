@@ -8,7 +8,7 @@ This project addresses the task of predicting a molecule's biological activity o
 
 # Data:
 
-The dataset consists of molecules (12 000) represented in SMILES format, along with their corresponding activity labels of 11 separated category (+1: active, 0: unknown, -1: inactive). The data is super inbalanced but see more detail in the EDA. Test set has 5896 SMILES without labels in all 11 categories to evaluate the model. Challenge host provided server evaluating the model based on AUC.
+The dataset consists of molecules (12 000) represented in SMILES format, along with their corresponding activity labels of 11 separated category (+1: active, 0: unknown, -1: inactive). The data is super inbalanced but see more details in the EDA. Test set has 5896 SMILES without labels in all 11 categories to evaluate the model. Challenge host provided server evaluating the model based on AUC.
 
 Data preparation had 3 pillars: Morgan Fingerprint (1024 added features), MACCSKeys (167 newly generated feature), RDKit Desc. (210 new features) based on the SMILES.
 
