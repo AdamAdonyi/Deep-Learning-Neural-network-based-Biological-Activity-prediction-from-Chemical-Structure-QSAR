@@ -27,7 +27,7 @@ Data preparation had 3 pillars: Morgan Fingerprint (1024 added features), MACCSK
 
 I employed Deep Learning Neural network models. The models were trained on a portion of the dataset and evaluated on a separate testing set.
 Since the dataset was inbalanced, I created a model separately for each task. Each task-specific-model has a unique, distribution-specified class_weight assigned. 
-The models have 6 layers with ReLu and as activation function and  with instituted drop out layers (0.2) . As Final output layer with 3 neurons the activation is [softmax](https://pytorch.org/docs/stable/generated/torch.nn.Softmax.html)
+The models have 6 layers with [ReLu](https://pytorch.org/docs/stable/generated/torch.nn.ReLU.html#relu) and as activation function and  with instituted drop out layers (0.2) . As Final output layer with 3 neurons, the activation is [softmax](https://pytorch.org/docs/stable/generated/torch.nn.Softmax.html). The used loss functin was [CategoricalCrossentropy](https://www.tensorflow.org/api_docs/python/tf/keras/losses/CategoricalCrossentropy), the optimizer was [Adamax](https://keras.io/api/optimizers/adamax/) with 0.001 learning rate and 0.9 momentum. Early stopping was tested (code sometimes contains it) but not used since I used 35 epochs with 32 batch size.
 <img src= "https://github.com/AdamAdonyi/QSAR-Challenge-Predicting-Biological-Activity-from-Chemical-Structure/blob/main/model.png">
 
 
