@@ -34,7 +34,7 @@ The models have 6 layers with [ReLu](https://pytorch.org/docs/stable/generated/t
 
 # Evaluation:
 
-The performance was assessed using the auc on the evaluation server, which calculates the mean Area Under the ROC Curve (AUC) while considering the presence of unknown labels.
+The performance was assessed using the auc on the evaluation server, which calculates the mean Area Under the ROC Curve (AUC) while considering the presence of unknown labels. During the training I modified hyperparameters based on the measured loss, accuracy, recall and F1 score.
 
 # Results:
 
